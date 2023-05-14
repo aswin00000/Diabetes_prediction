@@ -1,13 +1,13 @@
-# Diabetes_prediction
-# Machine Learning Model - Diabetes Prediction
-This repository contains code for a machine learning model that predicts whether a person has diabetes or not based on various features. The model is built using the Support Vector Machine (SVM) algorithm from the scikit-learn library.
+# Diabetes_prediction<br>
+# Machine Learning Model - Diabetes Prediction<br>
+This repository contains code for a machine learning model that predicts whether a person has diabetes or not based on various features.<br> The model is built using the Support Vector Machine (SVM) algorithm from the scikit-learn library.
 
-Dataset
+Dataset<br>
 The model uses the "diabetes.csv" dataset, which contains information about pregnant women and their diabetes status. The dataset includes features such as pregnancies, glucose levels, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, and age.
-
-Files
+<br><br>
+Files<br>
 The main files in this repository are:
-
+<br><br>
 model.py: This file contains the implementation of the machine learning model. It includes steps to preprocess the data, split it into training and testing sets, train the SVM classifier, and make predictions.
 
 diabetes.csv: This file is the dataset used for training and evaluating the model. It contains the input features and the corresponding diabetes outcome.
