@@ -12,15 +12,12 @@ model.py: This file contains the implementation of the machine learning model. I
 diabetes.csv: This file is the dataset used for training and evaluating the model. It contains the input features and the corresponding diabetes outcome.
 <br><br>
 ##Usage<br>
-1.Install the required dependencies by running pip install numpy pandas sklearn.
-2.Run the model.py file to train the model and make predictions. The code performs the following steps:
-  *Load the dataset using pd.read_csv.
-  *Preprocess the data by standardizing the input features using StandardScaler.
-  *Split the data into training and testing sets using train_test_split.
-  *Train the SVM classifier using the training data.
-  *Evaluate the accuracy of the model on the training and testing data.
-  *Make predictions on new input data and print the results.
-3.Adjust the input data in the input_data variable to test the model's predictions on different samples.
-
-Conclusion
-This machine learning model demonstrates how SVM can be used to predict diabetes based on various health indicators. By training the model on the provided dataset, it achieves a reasonable accuracy in predicting whether a person has diabetes or not.
+1.Install the required dependencies by running pip install numpy pandas sklearn.<br>
+2.Run the model.py file to train the model and make predictions. The code performs the following steps:<br>
+  *Load the dataset using pd.read_csv.<br>
+  *Preprocess the data by standardizing the input features using StandardScaler.<br>
+  *Split the data into training and testing sets using train_test_split.<br>
+  *Train the SVM classifier using the training data.<br>
+  *Evaluate the accuracy of the model on the training and testing data.<br>
+  *Make predictions on new input data and print the results.<br>
+3.Adjust the input data in the input_data variable to test the model's predictions on different samples.<br>
