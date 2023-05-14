@@ -14,10 +14,11 @@ diabetes.csv: This file is the dataset used for training and evaluating the mode
 Usage:<br>
 1.Install the required dependencies by running pip install numpy pandas sklearn.<br>
 2.Run the model.py file to train the model and make predictions. The code performs the following steps:<br>
-  *Load the dataset using pd.read_csv.<br>
-  *Preprocess the data by standardizing the input features using StandardScaler.<br>
-  *Split the data into training and testing sets using train_test_split.<br>
-  *Train the SVM classifier using the training data.<br>
-  *Evaluate the accuracy of the model on the training and testing data.<br>
-  *Make predictions on new input data and print the results.<br>
+  >*Load the dataset using pd.read_csv.<br>
+  >*Preprocess the data by standardizing the input features using StandardScaler.<br>
+  >*Split the data into training and testing sets using train_test_split.<br>
+  >*Train the SVM classifier using the training data.<br>
+  >*Evaluate the accuracy of the model on the training and testing data.<br>
+  >*Make predictions on new input data and print the results.<br>
+  
 3.Adjust the input data in the input_data variable to test the model's predictions on different samples.<br>
